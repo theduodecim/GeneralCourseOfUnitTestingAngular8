@@ -1,0 +1,9 @@
+<div *ngIf="isloggedIn">
+  <h1>User loggedIn</h1>
+  <p>User is : {{ user.name }}</p>
+  <p>Async Data : {{ data }}</p>
+</div>
+<div *ngIf="!isloggedIn">
+  <h1>User not LogIn</h1>
+  <p>Please loggedIn first</p>
+</div>
